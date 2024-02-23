@@ -12,7 +12,8 @@ border-radius: 8px;
 }
 
 .box2 {
-padding-top: 10px;
+    /* clockwise padding */
+padding-top: 30px 15px 10px 40px;
 border: 3px purple;
 border-style:dashed;
 }
