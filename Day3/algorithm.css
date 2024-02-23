@@ -1,0 +1,41 @@
+/* Position and Order of Appearance */
+div {
+    background-color: aquamarine;
+}
+
+/* If any styling comes LAST, that styling will be the one that will be the LATEST */
+div {
+    background-color: cadetblue;
+}
+
+/* ORIGIN */
+p {
+    border: 3px solid black;
+}
+
+/* SPECIFICITY */
+
+/* 1. Universal selector */
+* {
+    background-color: antiquewhite;
+}
+
+/* 2. Element Selector */
+p {
+    background-color: red;
+}
+
+/* 3. Class Selector */
+/* to emphasize the importance, use `!important` */
+.par {
+   background-color: aliceblue !important; 
+}
+
+/* 4. ID Selector */
+#first {
+    background-color: rgb(238, 192, 238);
+}
+
+#second {
+    background-color: salmon;
+}
