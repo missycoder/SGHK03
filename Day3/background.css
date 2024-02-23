@@ -1,0 +1,21 @@
+.colors {
+    color:#660080;
+    background-color:rgb(255,0,0);
+}
+
+/* Background Images */
+.background {
+    background-image: url(background.jpg);
+    background-position: center top;
+    /* background-repeat:no-repeat; */
+}
+
+/* Opacity and Transparency */
+.opacity {
+background-color: rgba(255,0,0,0.5);
+}
+
+.img {
+    width:300px;
+    height:100px;
+}
