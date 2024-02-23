@@ -1,0 +1,24 @@
+.box1 {
+border: 3px;
+border-style: solid;
+border-color: aqua;
+border-radius: 8px;
+}
+
+/* Alternatively */
+
+.box1 {
+    border: 5px double pink;
+}
+
+.box2 {
+padding-top: 10px;
+border: 3px purple;
+border-style:dashed;
+}
+
+.box3 {
+margin: 10px;
+border: 3px salmon;
+border-style: groove;
+}
