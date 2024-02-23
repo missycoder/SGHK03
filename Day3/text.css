@@ -1,0 +1,40 @@
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* Formatting Text */
+.format #bold {
+    font-weight: bold;
+}
+
+.format #italic {
+    font-style:italic;
+}
+
+.format #underline {
+    text-decoration: underline;
+}
+
+/* Text Alignment */
+.alignment {
+text-align: center;
+}
+
+/* LineHeight and Letter Spacing */
+.spacing {
+line-height: 5;
+letter-spacing: 5px;
+}
+
+/* Text Shadow */
+.shadow {
+    text-shadow: 2px 2px 4px rgba(229, 91, 91, 0.9);
+}
+
+/* Google Font */
+.google {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}

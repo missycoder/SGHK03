@@ -1,0 +1,35 @@
+/* Element Selector */
+/* Grouping Selector */
+h1,#p4{
+    color:Red;
+    background-color: blanchedalmond;
+}
+
+/* Class Selector */
+.par {
+    background-color: black;
+}
+
+/* ID Selector */
+#p1 {
+    color:aliceblue;
+}
+
+#p2 {
+    color:blueviolet;
+}
+
+#p3 {
+    color:yellowgreen;
+}
+
+/* Universal Selector */
+* {
+    color: blue;
+}
+
+/* Pseudoclass Selector */
+/* When user hover, the text will have background color grey */
+#hover:hover {
+    background-color: darkgrey;
+}
