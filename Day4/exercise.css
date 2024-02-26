@@ -9,8 +9,7 @@
 body {
 	font: 1.5rem "Nunito", arial ;
 	min-height: 100vh;
-
-	background-color: salmon;
+	background-color: burlywood;
 	background-image: radial-gradient(whitesmoke, pink);
 	display: flex;
 	flex-direction: column;
