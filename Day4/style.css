@@ -1,0 +1,22 @@
+/* Box Content Example */
+p {
+    width: 200px;
+    height:200px;
+    background-color: lightskyblue;
+}
+
+/* Border Box Example */
+.box-content{
+width:250px;
+height:250px;
+background-color: cadetblue;
+padding:20px;
+}
+
+.box-border-box {
+width:250px;
+height:250px;
+background-color: cadetblue;
+padding:20px;
+box-sizing:border-box;
+}
