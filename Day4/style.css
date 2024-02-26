@@ -88,3 +88,37 @@ box-sizing:border-box;
     top:20px;
     left: 300px;
 }
+
+/* Floats and Clearing Floats Examples */
+.float-left {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    float: left;
+}
+
+.float-right {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    float: right;
+}
+
+.clear-floats {
+    background-color: lightyellow;
+    padding: 10px;
+    clear: both;
+}
+
+/* Centering Elements  */
+.box-center-horizontal {
+width:200px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.box-center-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
