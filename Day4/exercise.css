@@ -1,0 +1,105 @@
+/* || RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* || GENERAL STYLES */
+body {
+	font: 1.5rem "Nunito", arial ;
+	min-height: 100vh;
+
+	background-color: salmon;
+	background-image: radial-gradient(whitesmoke, pink);
+	display: flex;
+	flex-direction: column;
+}
+
+header,
+nav,
+main,
+footer {
+	display: grid;
+	place-content: center;
+	grid-template-columns: 100%;
+	text-align: center;
+    margin: 5px;
+    padding:10px;
+}
+
+footer {
+	position: sticky;
+	background-color: gray;
+	color: solid black;
+    font-size: 12px;
+    margin: 0;
+}
+
+header {
+	top: 0;
+    position:sticky;
+    background-color: beige;
+}
+
+nav {
+	background-color: #fff;
+	color: #000;
+	padding: 0.5rem;
+	border-bottom: 2px solid #000;
+}
+
+main {
+	flex-grow: 1;
+}
+
+footer {
+	bottom: 0;
+}
+
+/* Small Devices - Mobile, iPad, Tablets */
+@media screen and (min-width:768px) {
+    header {
+        font-size:30px;
+        padding:100px;
+        background-color: skyblue;
+    }
+}
+
+@media screen and (min-width:768px) {
+    main {
+        font-size:20px;
+        padding:100px;
+        background-color: purple;
+    }
+}
+
+/* Laptops and Small Screens */
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 120px;
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 120px;
+        background-color: lightseagreen;
+    }
+}
+
+@media screen and (min-width: 1201) {
+    header {
+        padding: 120px;
+        background-color: greenyellow;
+    }
+}
+
+
+
+/* iphone, android, mobile -> <481px
+iPads and Tablets -> 481px - 768px
+laptops/small screens -> 769px - 1024px
+desktops or large screens -> 1025px - 1200px
+very large monitors -> 1201px */
