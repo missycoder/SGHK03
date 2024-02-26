@@ -44,3 +44,47 @@ box-sizing:border-box;
 /* display: inline-block allows to set a width and height on the element */
     margin: 20px; 
 }
+
+/* POSITION ELEMENT */
+.static {
+    width:200px;
+    height:50px;
+    background-color: cadetblue;
+    position: static;
+}
+
+.relative {
+    width:200px;
+    height:50px;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.absolute {
+    width:200px;
+    height:50px;
+    background-color: lightgreen;
+    position: absolute;
+    top:100px;
+    left:200px;
+    /* z-index:-1; */
+    /* z-index -1 will place the element behind other element */
+}
+
+.fixed {
+    width:200px;
+    height:50px;
+    background-color: lightpink;
+    position: fixed;
+    top: 20px;
+    left:30px;
+}
+
+.sticky {
+    width:200px;
+    height:50px;
+    background-color: lightseagreen;
+    position: sticky;
+    top:20px;
+    left: 300px;
+}
