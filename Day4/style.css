@@ -1,11 +1,10 @@
-/* Box Content Example */
 p {
     width: 200px;
     height:200px;
     background-color: lightskyblue;
 }
 
-/* Border Box Example */
+/* Content Box Example */
 .box-content{
 width:250px;
 height:250px;
@@ -13,10 +12,35 @@ background-color: cadetblue;
 padding:20px;
 }
 
+/* Border Box Example */
 .box-border-box {
 width:250px;
 height:250px;
 background-color: cadetblue;
 padding:20px;
 box-sizing:border-box;
+}
+
+.block {
+    background-color: aquamarine;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.inline {
+    background-color: burlywood;
+ display: inline;   
+ padding: 5px;
+ /* can't set width and height on the element */
+}
+
+.inline-block {
+    background-color: blueviolet;
+    padding: 5px;
+    display: inline-block;
+    /* `inline-block` can fully utilise the same line with other inline element */
+/* By default, it is a block */
+/* display: inline-block allows to set a width and height on the element */
+    margin: 20px; 
 }
