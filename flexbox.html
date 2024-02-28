@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .main-axis{
+            position: absolute;
+            top:50%;
+            height:3px;
+            width:2160px;
+            background-color:red;
+        }
+        .cross-axis{
+            position:absolute;
+            right:50%;
+            height:1080px;
+            width:3px;
+            background-color: blue;
+        }
+        .flex-container {
+            border:2px solid black;
+            height:300px;
+            display: flex;
+            flex-direction: row;
+            /* set the main axis as horizontal */
+            align-items: flex-start;
+            /* align items vertically in the center */
+            /* align items values
+            flex-start
+            flex-end
+            center
+            baseline */
+            justify-content: space-evenly;
+            /* justify-content values
+            flex-start
+            flex-end
+            center
+            space-around
+            space-between
+            space-evenly */
+            flex-wrap: wrap;
+            /* `flex-wrap` default value is nowrap */
+            align-content: center;
+            /* align everything on x axis
+            `justify-content` and `align-content` values
+            flex-start
+            flex-end
+            center
+            space-around
+            space-between
+            space-evenly */
+        }
+.flex-item {
+        background-color: salmon;
+        width: 200px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+/* .flex1 {
+    font-size: 50px;
+
+} */
+/* .flex1 {
+    flex-grow: 1;
+}
+
+.flex1 {
+    flex-shrink: 5;
+} */
+
+  /* this overrides the `.flex-item` width:200px */
+/* .flex1 {
+    flex-basis: 300px;
+} */
+  
+    
+    /* SHORCUT */
+/* .flexi1 {
+    flex: [flex-grow] [flex-shrink] [flex-basis];
+    flex: 1 5 300px;
+} */
+
+.flex3 {
+    align-self: center;
+}
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item flex1">Item 1</div>
+        <div class="flex-item flex2">Item 2</div>
+        <div class="flex-item flex3">Item 3</div>
+        <!-- <div class="flex-item flex4">Item 4</div>
+        <div class="flex-item flex5">Item 5</div>
+        <div class="flex-item flex6">Item 6</div> -->
+        <div class="axis main-axis"></div>
+        <div class="axis cross-axis"></div>
+    </div>
+</body>
+</html>

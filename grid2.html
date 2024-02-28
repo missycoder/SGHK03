@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.container {
+            border: 2px solid red;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            /* `grid-template-rows` has a shortcut above */
+          /* grid-template-rows: repeat(2, 100px); */
+          /* alternative code as above in px */
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+
+             /* column-gap: 10px;
+          row-gap: 20px; */
+        justify-content: space-evenly;
+        /* align along main x-axis */
+        align-content: space-evenly;
+        /* align along vertical or cross-axis by default */
+        /* `JUSTIFY-CONTENT` and `ALIGN-CONTENT` VALUES
+        start
+        end
+        center
+        space-between
+        space-around
+        space-evenly  */
+        }
+  
+        /* Grid item styles */
+        .gridItem {
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin: 2px;
+            border: 2px solid black;
+        }
+      
+      </style>
+
+    <title>Grid 2 Example</title>
+</head>
+
+<body>
+    <div class="container gridContainer">
+        <div class="gridItem gridItem1">1</div>
+        <div class="gridItem gridItem2">2</div>
+        <div class="gridItem gridItem3">3</div>
+        <div class="gridItem gridItem4">4</div>
+    </div>
+</body>
+</html>
