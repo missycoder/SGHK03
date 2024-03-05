@@ -15,3 +15,27 @@ if (score >= 90) {
 } else {
     console.log("Grade F");
 }
+
+
+// ADVANCE
+const kelvin = 293;
+// above code initializes a constant, kelvin, with value of 293
+
+let celsius = kelvin - 273;
+//above code initializs a variable, celsius, with the value that is the difference between the temperature value of kelvin(here 293) and 273(freezing point of water)
+//so basically we are converting kelvin to celsius
+
+let fahrenheit = celsius * (9/5) + 32;
+// above code converts celius to fahrenheit
+//we have declared and initialised the variable fahrenheit on the left based on the using variable celsius based on the formula/expression on the right
+
+
+console.log(`%cConversion of Kelvin to Fahrenheit:`,
+            `background: #F7941E;
+            background: linear-gradient(to right, #F7941E,#72C6EF,#00A651);
+            color: rgba(230,230,230,1);
+            font-size: 1rem;
+            padding: 0.8rem;
+            border-radius: 0.5rem`
+            );
+console.log(`\t\t🔥 ${kelvin}K :\t ${fahrenheit}°F 🔥`);
