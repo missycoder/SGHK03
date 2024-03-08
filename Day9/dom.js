@@ -37,6 +37,21 @@ newParagraph.textContent = "This is a new paragraph";
 container[0].appendChild(newParagraph);
 
 // removing an element
-const elementToRemove = document.querySelector("li");
-elementToRemove.remove()
-console.log("Removed Elements:", elementToRemove);
+// const elementToRemove = document.querySelector("li");
+// elementToRemove.remove()
+// console.log("Removed Elements:", elementToRemove);
+
+
+// To remove `Item 2` in the item list
+const second = document.getElementById("list");
+second.removeChild(second.children[1]);
+
+/ Handling Events
+button.addEventListener("click", addListItem);
+
+function addListItem() {
+	const newListItem = document.createElement("li");
+	newListItem.textContent = "Another Task";
+
+	document.getElementById("list").appendChild(newListItem);
+}
